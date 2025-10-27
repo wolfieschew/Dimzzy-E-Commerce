@@ -153,6 +153,9 @@
                     </div>
                 </div>
             </div>
+            <a href="{{ url('/produk') }}" class="btn btn-danger m-3 d-block mx-auto" style="width: fit-content;">
+                Show More Products
+            </a>
     </section>
 
     <section class="section5" id="review">

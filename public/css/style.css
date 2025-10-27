@@ -833,6 +833,7 @@ section.section4 .container .row:nth-child(1) h1 span {
 
     section.section1 a.links {
         font-size: 17px;
+        margin-top: 20px;
     }
 
     .topbtn a i {
@@ -1860,4 +1861,256 @@ header .container .row .navbar::-webkit-scrollbar-thumb
 header .container .row .navbar-light .navbar-toggler:focus {
     box-shadow: none;
 }
+}
+
+
+/* Product Section */
+
+.product-section {
+    padding: 100px 0 60px 0;
+}
+
+.product-section h1 {
+    margin-top: 150px;
+}
+
+.product-section .container .row:nth-child(1) h1 {
+    text-align: center;
+    font-family: 'Jost';
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    font-size: 50px;
+    background: #fff5fa;
+    padding: 10px 0px;
+    margin-bottom: 30px;
+    transition: 0.5s ease;
+}
+
+.product-section .container .row:nth-child(1) h1 span {
+    color: #E30613;
+}
+
+.product-section .col-sm-4 .innerproductsection {
+    box-shadow: 0px 0px 10px #0000002e;
+    padding: 30px 0px 15px 0px;
+    margin: 0px 0px 25px;
+    position: relative;
+}
+
+.product-section .col-sm-4 .innerproductsection img {
+    height: 250px;
+    width: 100%;
+    object-fit: contain;
+    margin: 0 auto;
+    margin-bottom: 0px;
+}
+
+.product-section .col-sm-4 .innerproductsection span.discount {
+    position: absolute;
+    font-family: 'JOST';
+    color: #E30613;
+    font-size: 25px;
+    top: 15px;
+    font-weight: 500;
+    left: 20px;
+    background: #fff4f9;
+    padding: 5px 15px;
+    text-align: center;
+}
+
+.product-section .col-sm-4 .innerproductsection .cartcontainer button {
+    background: #E30613;
+    width: 100%;
+    border: none;
+    height: 55px;
+    border-radius: 0px;
+    border-right: 1px solid #ffffff;
+    color: #ffffff;
+    font-family: 'Jost';
+    font-size: 22px;
+    transition: 0.5s ease;
+}
+
+.product-section .col-sm-4 .innerproductsection .cartcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease;
+    position: relative;
+    opacity: 0;
+    bottom: 25px;
+}
+
+.product-section .col-sm-4 .innerproductsection .cartcontainer button:nth-child(2) i {
+    display: none;
+}
+
+.product-section .col-sm-4 .innerproductsection h2 {
+    text-align: center;
+    margin-top: -17px;
+    font-family: 'Jost';
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.product-section .col-sm-4 .innerproductsection h1.price {
+    text-align: center;
+}
+
+.product-section .col-sm-4 .innerproductsection h1.price span {
+    font-size: 32px;
+    font-family: 'Jost';
+    color: #E30613;
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.product-section .col-sm-4 .innerproductsection h1.price {
+    font-size: 20px;
+    font-family: 'Jost';
+    color: grey;
+}
+
+.product-section .col-sm-4:hover .innerproductsection .cartcontainer {
+    opacity: 1 !important;
+    bottom: 40px;
+    transition: 0.5s ease-out;
+}
+
+.product-section .col-sm-4 .innerproductsection .cartcontainer button:hover {
+    background: #000000;
+    transition: 0.5s ease-out;
+}
+
+.product-section .col-sm-4:hover .innerproductsection img {
+    transform: scale(1.1);
+    z-index: -1;
+    position: relative;
+}
+
+/* Responsive Queries */
+@media only screen and (min-width: 1024px) and (max-width: 1300px) {
+    .product-section .container .row:nth-child(1) h1 {
+        font-size: 35px;
+        padding: 7px 0px;
+        margin-bottom: 40px;
+    }
+    .product-section .col-sm-4 .innerproductsection span.discount {
+        font-size: 17px;
+        left: 13px;
+        top: 10px;
+        padding: 4px 10px;
+    }
+    .product-section .col-sm-4 .innerproductsection img {
+        height: 170px;
+    }
+    .product-section .col-sm-4 .innerproductsection {
+        padding: 20px 0px 10px 0px;
+    }
+    .product-section .col-sm-4 .innerproductsection h2 {
+        font-size: 22px;
+        margin-top: -20px;
+        margin-bottom: 7px;
+    }
+    .product-section .col-sm-4 .innerproductsection h1.price span {
+        font-size: 22px;
+        margin-right: 0px;
+    }
+    .product-section .col-sm-4 .innerproductsection h1.price del {
+        font-size: 15px !important;
+    }
+    .product-section .col-sm-4 .innerproductsection .cartcontainer button {
+        font-size: 15px;
+        height: 39px;
+    }
+    .product-section .col-sm-4:hover .innerproductsection .cartcontainer {
+        bottom: 33px;
+    }
+    .product-section {
+        padding: 40px 0px 15px 0px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+    .product-section .container .row:nth-child(1) h1 {
+        font-size: 35px;
+        padding: 7px 0px;
+        margin-bottom: 23px;
+    }
+    .product-section .col-sm-4 .innerproductsection span.discount {
+        font-size: 17px;
+        left: 13px;
+        top: 10px;
+        padding: 4px 10px;
+    }
+    .product-section .col-sm-4 .innerproductsection img {
+        height: 140px;
+    }
+    .product-section .col-sm-4 .innerproductsection {
+        padding: 20px 0px 10px 0px;
+    }
+    .product-section .col-sm-4 .innerproductsection h2 {
+        font-size: 21px;
+        margin-top: -15px;
+        margin-bottom: 5px;
+    }
+    .product-section .col-sm-4 .innerproductsection h1.price span {
+        font-size: 21px;
+        margin-right: 0px;
+    }
+    .product-section .col-sm-4 .innerproductsection h1.price del {
+        font-size: 14px !important;
+    }
+    .product-section .col-sm-4 .innerproductsection .cartcontainer button {
+        font-size: 14px;
+        height: 39px;
+    }
+    .product-section .col-sm-4:hover .innerproductsection .cartcontainer {
+        bottom: 33px;
+    }
+    .product-section {
+        padding: 28px 0px 15px 0px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    .product-section .container .row:nth-child(1) h1 {
+        font-size: 30px;
+        padding: 7px 0px;
+        margin-bottom: 23px;
+    }
+    .product-section .col-sm-4 .innerproductsection span.discount {
+        font-size: 17px;
+        left: 13px;
+        top: 10px;
+        padding: 4px 10px;
+    }
+    .product-section .col-sm-4 .innerproductsection img {
+        height: 140px;
+    }
+    .product-section .col-sm-4 .innerproductsection {
+        padding: 20px 0px 10px 0px;
+    }
+    .product-section .col-sm-4 .innerproductsection h2 {
+        font-size: 21px;
+        margin-top: -15px;
+        margin-bottom: 5px;
+    }
+    .product-section .col-sm-4 .innerproductsection h1.price span {
+        font-size: 21px;
+        margin-right: 0px;
+    }
+    .product-section .col-sm-4 .innerproductsection h1.price del {
+        font-size: 14px !important;
+    }
+    .product-section .col-sm-4 .innerproductsection .cartcontainer button {
+        font-size: 14px;
+        height: 39px;
+    }
+    .product-section .col-sm-4:hover .innerproductsection .cartcontainer {
+        bottom: 33px;
+    }
+    .product-section {
+        padding: 28px 0px 0px 0px;
+    }
 }
