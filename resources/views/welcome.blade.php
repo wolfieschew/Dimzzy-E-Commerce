@@ -95,7 +95,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-6" data-aos="fade-right">
-                    <img src="./assets/Dimzzy Goreng.jpg" alt="Intro Image" id="img-1">
+                    <img src="{{ asset('assets/Dimzzy Goreng.jpg') }}" alt="Intro Image" id="img-1">
                 </div>
                 <div class="col-sm-6" data-aos="fade-left">
                     <h2>Kenapa Harus Cobain Dimzzy</h2>
@@ -116,7 +116,7 @@
             <div class="row">
                 <div class="col-sm-4" data-aos="fade-right">
                     <div class="innerproductsection">
-                        <img src="./assets/Dimzzy Goreng.jpg" alt="Logo Image" />
+                        <img src="{{ asset('assets/Dimzzy Goreng.jpg') }}" alt="Logo Image" />
                         <div class="cartcontainer">
                             <button class="wishlist"><i class="fa-solid fa-heart"></i></button>
                             <button class="btn">Tambah ke Keranjang <i class="fa-solid fa-cart-plus"></i></button>
@@ -128,7 +128,7 @@
                 </div>
                 <div class="col-sm-4" data-aos="fade-up">
                     <div class="innerproductsection">
-                        <img src="./assets/Boba.jpg" alt="Logo Image" />
+                        <img src="{{ asset('assets/Boba.jpg') }}" alt="Logo Image" />
                         <div class="cartcontainer">
                             <button class="wishlist"><i class="fa-solid fa-heart"></i></button>
                             <button class="btn">Tambah ke Keranjang <i class="fa-solid fa-cart-plus"></i></button>
@@ -141,7 +141,7 @@
                 </div>
                 <div class="col-sm-4" data-aos="fade-left">
                     <div class="innerproductsection">
-                        <img src="./assets/Boba.jpg" alt="Logo Image" />
+                        <img src="{{ asset('assets/Boba.jpg') }}" alt="Logo Image" />
                         <div class="cartcontainer">
                             <button class="wishlist"><i class="fa-solid fa-heart"></i></button>
                             <button class="btn">Tambah ke Keranjang <i class="fa-solid fa-cart-plus"></i></button>
@@ -177,7 +177,7 @@
                                 <p>Memimpin Dimzzy untuk menghadirkan dimsum goreng keju yang selalu fresh, lezat, dan bikin ketagihan.</p>
                                 <div class="txtwithicon">
                                     <div class="iconcol">
-                                        <img src="./assets/testi1.png" alt="" class="testimg1">
+                                        <img src="{{ asset('assets/testi1.png') }}" alt="" class="testimg1">
                                     </div>
                                     <div class="txtcol">
                                         <h1>Alfansuri Akhyar</h1>
@@ -199,7 +199,7 @@
                                 <p>Memastikan setiap orang tahu Dimzzy itu enak dan selalu bikin penasaran lewat strategi marketing kreatif.</p>
                                 <div class="txtwithicon">
                                     <div class="iconcol">
-                                        <img src="./assets/test3.png" alt="" class="testimg1">
+                                        <img src="{{ asset('assets/test3.png') }}" alt="" class="testimg1">
                                     </div>
                                     <div class="txtcol">
                                         <h1>Margaretha Gratia</h1>
@@ -221,7 +221,7 @@
                                 <p>Bertanggung jawab memastikan setiap produk Dimzzy punya kualitas terbaik dan konsisten di setiap gigitan.</p>
                                 <div class="txtwithicon">
                                     <div class="iconcol">
-                                        <img src="./assets/testi4.png" alt="" class="testimg1">
+                                        <img src="{{ asset('assets/testi1.png') }}" alt="" class="testimg1">
                                     </div>
                                     <div class="txtcol">
                                         <h1>Najma</h1>
@@ -243,7 +243,7 @@
                                 <p>Mengatur desain & konsep Dimzzy agar tampil menarik, cozy, dan mudah diingat pelanggan </p>
                                 <div class="txtwithicon">
                                     <div class="iconcol">
-                                        <img src="./assets/testi2.png" alt="" class="testimg1">
+                                        <img src="{{ asset('assets/testi2.png') }}" alt="" class="testimg1">
                                     </div>
                                     <div class="txtcol">
                                         <h1>Nasywa Azizah K</h1>
@@ -265,7 +265,7 @@
                                 <p>Bekerja menjaga kepuasan pelanggan dan komunikasi agar pengalaman menikmati Dimzzy selalu menyenangkan.</p>
                                 <div class="txtwithicon">
                                     <div class="iconcol">
-                                        <img src="./assets/test3.png" alt="" class="testimg1">
+                                        <img src="{{ asset('assets/test3.png') }}" alt="" class="testimg1">
                                     </div>
                                     <div class="txtcol">
                                         <h1>Jasmine Xaviera</h1>
@@ -303,7 +303,7 @@
                     </form>
                 </div>
                 <div class="col-sm-6" data-aos="fade-left">
-                    <img src="./assets/Dimzzy.jpg" alt="Contact img" class="contactimg">
+                    <img src="{{ asset('assets/Dimzzy.jpg') }}" alt="Contact img" class="contactimg">
                 </div>
             </div>
         </div>
@@ -341,7 +341,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
-    <script src="./app.js" defer></script>
+
+    <script src="{{ asset('js/app.js') }}" defer></script>
 
 </body>
 
